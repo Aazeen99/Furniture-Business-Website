@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+section {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding: 30px;
+    height: 80%;
+}
+
+.heading{
+    margin-top: 70px;
+    font-size: 40px;
+    color: #000;
+    padding: 5px;
+    text-align: center;
+  }
+
+.card {
+    padding: 30px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-container {
+    width: 50%;
+}
+
+.detail-container {
+    width: 50%;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card img {
+    width: 400px; 
+    height: 300px;
+}
+
+.name-price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.card p {
+    color: #555;
+    text-align: left;
+}
+
+.card .price {
+    font-size: 1.2em;
+    color: #000;
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: #6F4E37;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 16px;
+    border: 2px solid #f2f2f2;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.card button:hover {
+    background-color: #f2f2f2;
+    border: 2px solid #6F4E37;
+    color: #6F4E37;
+}
+
+.side-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.side-images img {
+    width: 80px;
+    height: 80px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    border: 2px solid transparent;
+}
+
+.side-images img:hover {
+    transform: scale(1.1);
+}
+
+.side-images img.selected {
+    border: 2px solid #007BFF;
+}
