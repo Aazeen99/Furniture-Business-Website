@@ -64,6 +64,11 @@
         display: flex;
         align-items: center;
     }
+
+    .github-link:hover{
+        color: #0969DA;
+        text-decoration: underline;
+    }
 </style>
 
 <footer class="footer" id="user-footer">
@@ -80,10 +85,10 @@
     </div>
 
     <div class="git-links">
-        <a href="https://github.com/Farwah-Mahnoor" class="github-link">Farwah Mahnoor</a>
-        <a href="https://github.com/khadija-bibi" class="github-link">Khadija Bibi</a>
-        <a href="https://github.com/Alyankk" class="github-link">Muhammad Alyan</a>
-        <a href="https://github.com/Konain00" class="github-link">Konain Raza</a>
-        <a href="https://github.com/Aazeen99" class="github-link">Aazeen Iftikhar</a>
+        <a href="https://github.com/Farwah-Mahnoor" target="_blank" class="github-link">Farwah Mahnoor</a>
+        <a href="https://github.com/khadija-bibi" target="_blank" class="github-link">Khadija Bibi</a>
+        <a href="https://github.com/Alyankk" target="_blank" class="github-link">Muhammad Alyan</a>
+        <a href="https://github.com/Konain00" target="_blank" class="github-link">Konain Raza</a>
+        <a href="https://github.com/Aazeen99" target="_blank" class="github-link">Aazeen Iftikhar</a>
     </div>
 </footer>
