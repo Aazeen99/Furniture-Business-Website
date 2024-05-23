@@ -71,6 +71,16 @@
             border-radius: 100%;
         }
 
+        .navbar-left{
+            display: flex;
+        }
+
+        .navbar-left p{
+            margin-left: 5px;
+            margin-top: 5px;
+            font-size: 22px;
+        }
+
         .navbar-right {
             display: flex;
             align-items: center;
@@ -113,7 +123,8 @@
     <nav class="navbar">
         <!-- Left section -->
         <div class="navbar-left">
-            <a href="index.php" class="logo"><img class="fas fa-store" src="logo.png" alt="Furniture Website logo"> Your Logo</a>
+            <a href="index.php" class="logo"><img class="fas fa-store" src="logo.png" alt="Furniture Website logo"></a>
+            <p>Furniture Store</p>
         </div>
         
         <!-- Center section -->
@@ -130,14 +141,11 @@
             <?php if(isset($_SESSION['user_id'])): ?>
                 <a href="userLogout.php" class="cart-btn">Sign out</a>
             <?php else: ?>
-                <a href="userLoginForm.php" class="signin-btn">Sign In</a>
+                <a href="userLoginForm.php?return_url=index.php" class="signin-btn">Sign In</a>
             <?php endif; ?>
                 <a href="userCart.php" class="cart-btn">Cart</a>
         </div>
     </nav>
-
-    <!-- Content here -->
-
 </body>
 </html>
 

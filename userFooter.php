@@ -80,10 +80,10 @@
     </div>
 
     <div class="git-links">
-        <a href="https://github.com/your_github_username" class="github-link">Farwah Mahnoor</a>
-        <a href="https://github.com/your_github_username" class="github-link">Khadija Bibi</a>
-        <a href="https://github.com/your_github_username" class="github-link">Muhammad Alyan</a>
-        <a href="https://github.com/your_github_username" class="github-link">Konain Raza</a>
-        <a href="https://github.com/your_github_username" class="github-link">Aazeen Iftikhar</a>
+        <a href="https://github.com/Farwah-Mahnoor" class="github-link">Farwah Mahnoor</a>
+        <a href="https://github.com/khadija-bibi" class="github-link">Khadija Bibi</a>
+        <a href="https://github.com/Alyankk" class="github-link">Muhammad Alyan</a>
+        <a href="https://github.com/Konain00" class="github-link">Konain Raza</a>
+        <a href="https://github.com/Aazeen99" class="github-link">Aazeen Iftikhar</a>
     </div>
 </footer>

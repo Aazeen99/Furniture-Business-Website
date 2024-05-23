@@ -1,3 +1,14 @@
+
+<?php
+session_start();
+include "db.php";
+
+// Retrieve prod_id from URL
+$prod_id = isset($_GET['prod_id']) ? $_GET['prod_id'] : '';
+
+// Rest of your userLoginForm.php code...
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -84,7 +95,8 @@
         <form action="userLogin.php" method="post">
             <input type="text" id="user_name" name="user_name" placeholder="Enter Username" required>
             <input type="password" id="user_password" name="user_password" placeholder="Enter Password" required>
-            <input type="hidden" name="return_url" value="<?php echo isset($_GET['return_url']) ? htmlspecialchars($_GET['return_url']) : ''; ?>">
+            <input type="hidden" name="prod_id" value="<?php echo htmlspecialchars($prod_id); ?>">
+            <input type="hidden" name="return_url" value="<?php echo htmlspecialchars(isset($_GET['return_url']) ? $_GET['return_url'] : ''); ?>">
             <input type="submit" name="userLogin" value="Login">
         </form>
         <div class="register-link">
