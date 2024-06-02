@@ -47,7 +47,6 @@ $result = $conn->query($sql);
                                 <a style="background-color: rgb(255, 162, 0);" href="view_side_images.php?prod_id=<?php echo $row['prod_id']; ?>">Others</a>
                             </td>
                             <td colspan="2" class="action-btn-cont">
-                                <a style="background-color: green;padding: 6px 24px;" href="update_product.php?prod_id=<?php echo $row['prod_id']; ?>">Edit</a><br>
                                 <a style="background-color: red;padding: 6px 16px;" href="delete_product.php?prod_id=<?php echo $row['prod_id']; ?>">Delete</a><br>
                                 <a style="background-color: blue;" href="addFeatured.php?prod_id=<?php echo $row['prod_id']; ?>">Feature</a><br>
                             </td>
